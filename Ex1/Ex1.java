@@ -62,7 +62,7 @@ public class Ex1 {
 
 	private static void allPalindromes(String input) {
 		int none = 0;
-		char[] a = input.toCharArray(); // if we go for rotate(a, i), than com that lane
+		char[] a = input.toCharArray(); // if we go for rotate(a, i), than commend that lane
 		for (int i = 0; i < input.length(); i++) {
 			 // //cause i want every time to rotate form  the original IF I USE rotate  
 			 // char[] a = input.toCharArray();
